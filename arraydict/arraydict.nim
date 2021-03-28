@@ -7,6 +7,15 @@ vals[2..3] = [ 555, 777 ]
 echo(vals)
 assert vals == [ 123, 2, 555, 777, 5 ]
 
+# ---
+
+var seqarray: seq[int] = @[ 1, 2, 3 ]
+
+seqarray.add(345)
+seqarray.add(678)
+
+echo(seqarray)
+
 
 # ---
 
