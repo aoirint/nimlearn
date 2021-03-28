@@ -8,4 +8,16 @@ echo(vals)
 assert vals == [ 123, 2, 555, 777, 5 ]
 
 
-# var dic = 
+# ---
+
+import tables
+
+var dic = {
+  "piyo": "piyopiyo",
+  "goma": "gomagoma",
+}.toTable
+
+echo(dic)
+
+dic["goma"] = "mago"
+echo(dic)
