@@ -8,3 +8,7 @@
 Atomプラグインはメンテナンスされてなさそう
 
 - https://github.com/russpowers/nim-atom
+
+ローカルにNimインストールが必要
+
+- (macOS) https://formulae.brew.sh/formula/nim
